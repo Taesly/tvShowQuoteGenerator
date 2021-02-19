@@ -1,0 +1,41 @@
+#brand-logo {
+  font-size: 34px;
+}
+
+#app-navbar {
+  background: #00ac9d;
+}
+
+#app-navbar {
+  height: 104px;
+}
+
+#fonts {
+  font-size: x-large;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 0px 5px rgba(0,0,0,0);
+  color: var(--gray);
+}
+
+#font-color {
+  color: #ffffff;
+}
+
+.location, .temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature {
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+

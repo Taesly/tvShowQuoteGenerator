@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>javascript projects</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="d-flex flex-column justify-content-center" style="font-family: sans-serif;color: rgb(255,255,255);">
+    <!-- <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="icon ion-ios-infinite" id="brand-logo"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto" id="fonts">
+                    <li class="nav-item"><a class="nav-link active" id="font-color" href="#">First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" id="font-color" href="#">Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" id="font-color" href="#">Third Item</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <section class="d-flex flex-column justify-content-center align-items-center" style="height: 100vh;background: linear-gradient(#00ac9d, rgb(12,147,223) 44%);">
+        <h1>Random Quote Generator&nbsp;</h1>
+
+        
+        <div class="container text-center" style="margin-top: 50px;">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col"><img src="assets/img/georgeLopez.png" style="width: 70%;"></div>
+                <div class="col"><img src="assets/img/friends.png" style="width: 70%;"></div>
+                <div class="col"><img src="assets/img/theoffice.png" style="width: 70%;"></div>
+            </div>
+            <div class="row" style="margin-top: 24px;">
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="georgeLopez" name="show" value="George Lopez" onchange= "checkRadio()">
+                        <label class="form-check-label" for="georgeLopez">George Lopez</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="friends" name="show" value="Friends" onchange="checkRadio()">
+                        <label class="form-check-label" for="friends">Friends</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="theOffice" name="show" value="The Office" onchange="checkRadio()">
+                        <label class="form-check-label" for="theOffice">The Office</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin: 68px;">
+                <div class="col">
+                    <button id="clickGen" class="btn btn-primary" onchange="generateQ()" type="button" style="box-shadow: 2px 2px 11px rgb(0,0,0);">Generate Quote For:<span id="btnOutput">&nbsp;Please Select Show</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin: 0px;">
+            <div class="col">
+                <h1 style="text-align: center; margin: 0 10%;" id="qOutput"></h1>
+            </div>
+        </div>
+        
+
+        
+    
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/-Fixed-Navbar-start-with-transparency-background-BS4-.js"></script>
+    <script src="assets/js/generator.js"></script>
+</body>
+
+</html>
